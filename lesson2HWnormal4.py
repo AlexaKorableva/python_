@@ -2,13 +2,14 @@ import random
 num=int(input ('введите количество элементов:'))
 s=[]
 new_s=[]
-new_s = list()
 i=0
 while i < num:
     s.append(random.randint(0,15))
     i += 1
 print (s)
+
 print('__a_'+'_'*15)
+
 new_s = set(s)
 print(new_s)
 
